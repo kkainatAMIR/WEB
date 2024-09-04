@@ -1,0 +1,198 @@
+/* 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.sections-container {
+  display: flex;
+  justify-content: space-between; /* Distribute space between items */
+  /* flex-wrap: wrap; 
+  gap: 20px; 
+  padding: 2rem; 
+}
+
+.token-section {
+  flex: 1 1 calc(25% - 20px); 
+  box-sizing: border-box;
+  max-width: calc(25% - 20px);
+}
+
+
+@media (max-width: 1200px) {
+  .token-section {
+      flex: 1 1 calc(50% - 20px); 
+  }
+}
+
+@media (max-width: 900px) {
+  .token-section {
+      flex: 1 1 calc(100% - 20px); 
+  }
+}
+ */
+
+/* 
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: 36px;
+  padding: 16px;
+  border-radius: 16px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}  */
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.app-container {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button, .connect-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover, .connect-button:hover {
+  background-color: #45a049;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// styled-components
+const Container = styled.div`
+  font-family: Arial, sans-serif;
+  color: #333;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+`;
+
+const Header = styled.header`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f3f4f6;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+`;
+
+const Main = styled.main`
+  padding: 20px;
+`;
+
+const Section = styled.section`
+  margin-bottom: 20px;
+`;
+
+const Input = styled.input`
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+`;
+
+const StatusMessage = styled.div`
+  margin-top: 20px;
+  color: green;
+`;
+
+const Footer = styled.footer`
+  background-color: #f3f4f6;
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+`;

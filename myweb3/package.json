@@ -1,0 +1,120 @@
+{
+  "homepage": "http://fireclint.github.io/myweb3-app-react",
+  "name": "myweb3",
+  "version": "0.1.0",
+  "proxy": "http://localhost:5000",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": []
+  },
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-transform-class-properties": "^7.25.4",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.24.7",
+    "@babel/plugin-transform-numeric-separator": "^7.24.7",
+    "@babel/plugin-transform-optional-chaining": "^7.24.8",
+    "@babel/preset-react": "^7.24.7",
+    "@coinbase/wallet-sdk": "^4.0.4",
+    "@craco/craco": "^7.1.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@portis/web3": "^4.0.7",
+    "@rainbow-me/rainbowkit": "^2.1.4",
+    "@tanstack/query-core": "^5.52.0",
+    "@tanstack/react-query": "^5.52.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@toruslabs/torus-embed": "^5.0.0",
+    "@walletconnect/core": "^2.15.0",
+    "@walletconnect/web3-provider": "^1.8.0",
+    "@walletconnect/web3wallet": "^1.14.1",
+    "@web3modal/ethereum": "^2.7.1",
+    "@web3modal/react": "^2.7.1",
+    "assert": "^2.1.0",
+    "axios": "^1.7.5",
+    "bignumber.js": "^9.1.2",
+    "browserify": "^17.0.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "ether": "^0.0.9",
+    "fortmatic": "^2.4.0",
+    "https-browserify": "^1.0.0",
+    "magic-sdk": "^28.5.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.26.1",
+    "react-scripts": "5.0.1",
+    "rimraf": "^6.0.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.4",
+    "vite-plugin-node-polyfills": "^0.22.0",
+    "wagmi": "^2.12.7",
+    "web-vitals": "^2.1.4",
+    "web3": "^4.12.1",
+    "web3modal": "^1.9.12"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.7",
+    "@nomicfoundation/hardhat-ethers": "^3.0.6",
+    "@nomicfoundation/hardhat-ignition": "^0.15.5",
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.5",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.11",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.9",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "@types/chai": "^4.3.17",
+    "@types/mocha": "^10.0.7",
+    "chai": "^4.5.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2",
+    "gh-pages": "^6.1.1",
+    "glob": "^11.0.0",
+    "hardhat": "^2.22.9",
+    "hardhat-gas-reporter": "^1.0.10",
+    "solidity-coverage": "^0.8.12",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5.5.4",
+    "webpack-cli": "^5.1.4"
+  }
+}
