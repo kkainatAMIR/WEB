@@ -1,4 +1,4 @@
-/* 
+ 
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -7,7 +7,7 @@ body {
 .sections-container {
   display: flex;
   justify-content: space-between; /* Distribute space between items */
-  /* flex-wrap: wrap; 
+   flex-wrap: wrap; 
   gap: 20px; 
   padding: 2rem; 
 }
@@ -30,9 +30,7 @@ body {
       flex: 1 1 calc(100% - 20px); 
   }
 }
- */
-
-/* 
+ 
 
 .App {
   text-align: center;
@@ -80,7 +78,7 @@ button {
   background-color: red;
   color: white;
   font-weight: bold;
-}  */
+} 
 
 
 
@@ -91,7 +89,6 @@ button {
 
 
 
-/* 
 
 .app-container {
   font-family: Arial, sans-serif;
@@ -136,7 +133,7 @@ p {
 
 .submit-button:hover, .connect-button:hover {
   background-color: #45a049;
-} */
+} 
 
 
 

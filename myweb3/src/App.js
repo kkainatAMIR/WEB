@@ -20,7 +20,7 @@ import Arbitrum from './component/Arbitrium'; // Ensure this is correct
 function App() {
   return (
     <WalletProvider> 
-      <Router>
+                    <Router> 
         <Navbar /> 
         <Routes>
           <Route path="/" element={<HeroSection />} />
